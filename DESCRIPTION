@@ -1,0 +1,19 @@
+Package: homoglyph
+Version: 0.0.0.9000
+Title: Disambiguating confusables
+Description: Tools for working with visually similar but semantially different characters and groups of characters. Create, match and measure confusable strings. 
+Authors@R: person("Dmytro", "Perepolkin", email = "dperepolkin@gmail.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+URL: https://github.com/dmi3kno/homoglyph
+BugReports: https://github.com/dmi3kno/homoglyph/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+Imports: 
+    dplyr
+Suggests: 
+    tesseract,
+    knitr,
+    testthat
